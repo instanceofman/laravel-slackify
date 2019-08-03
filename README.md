@@ -7,7 +7,7 @@ But the way the Slack driver is currently displayed is not really useful for sys
 **Slackify** will help you log the exceptions of the system in a more neat way, much more useful information, and be customizable (will be added in v1.1)
 
 #### Default Slack driver
-![Yy58tAo94n](https://user-images.githubusercontent.com/53640239/62410167-6ad94f00-b60c-11e9-9a89-9d05c98ba56c.png)
+![Default slack driver shows](https://user-images.githubusercontent.com/53640239/62410270-c1935880-b60d-11e9-99fc-061ed2a488eb.png)
 
 #### Slackify
-![RiuYxOyueX](https://user-images.githubusercontent.com/53640239/62410174-77f63e00-b60c-11e9-8cc3-e4e7abeeae64.png)
+![Slackify shows](https://user-images.githubusercontent.com/53640239/62410269-c0fac200-b60d-11e9-98ef-6bd286885355.png)
