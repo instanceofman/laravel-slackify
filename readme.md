@@ -1,1 +1,0 @@
-# Beautify Slack logging format
