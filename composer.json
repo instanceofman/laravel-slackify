@@ -1,0 +1,14 @@
+{
+    "name": "isofman/laravel-slackify",
+    "description": "Beautify Slack logging format",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Pham",
+            "email": "instanceofman@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
