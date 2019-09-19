@@ -16,6 +16,12 @@ class SlackFormatter extends NormalizerFormatter implements FormatterInterface
             if (is_a($record['context']['exception'], 'ExceptionWithMetaContext')) {
                 $formatted['context']['exception']['meta'] =
                     $record['context']['exception']->getContext();
+            } else if(is_a($record['context']['exception'], 'NoLuckException')) {
+                $formatted['context']['exception']['meta'] =
+                    $record['context']['exception']->getErrorMeta();
+            } else if(method_exists($record['context']['exception'], 'getMeta')) {
+                $formatted['context']['exception']['meta'] =
+                    $record['context']['exception']->getMeta();
             }
         } catch (\Exception $exception) {
         }
