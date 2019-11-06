@@ -115,7 +115,7 @@ class SlackifyWebhookHandler extends AbstractProcessingHandler
         ];
     }
 
-    protected function write(array $record)
+    protected function write(array $record) : void
     {
         try {
             $record = $this->getSlackData($record['formatted']);
